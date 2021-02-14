@@ -5,8 +5,8 @@ public class BonusTest {
         long amount = 1000_60;
         boolean registered = true;
 
-        service.calculate(amount, registered);
+        // service.calculate(amount, registered);
 
-        //   System.out.println(service.calculate(amount, registered));
+        System.out.println(service.calculate(amount, registered));
     }
 }
